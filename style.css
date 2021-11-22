@@ -327,7 +327,7 @@ button:hover {
 }
 
 .moveUp {
-	animation: moveUp ease 0.8s;
+	animation: moveUp ease 1.2s;
 	position: relative;
 }
 .moveLeft {
@@ -424,7 +424,7 @@ button:hover {
 }
 @keyframes moveLeft {
 	0% {
-		right: 20px;
+		right: 10px;
 		opacity: 0;
 	}
 	100% {
@@ -434,7 +434,7 @@ button:hover {
 }
 @-webkit-keyframes moveLeft{
 	0% {
-		right: 20px;
+		right: 10px;
 		opacity: 0;
 	}
 	100% {
@@ -445,7 +445,7 @@ button:hover {
 
 @keyframes moveRight {
 	0% {
-		left: 20px;
+		left: 15px;
 		opacity: 0;
 	}
 	100% {
@@ -455,7 +455,7 @@ button:hover {
 }
 @-webkit-keyframes moveRight {
 	0% {
-		left: 20px;
+		left: 15px;
 		opacity: 0;
 	}
 	100% {
