@@ -46,6 +46,10 @@ h2 {
 	color: #b6b099;
 }
 
+p {
+	font-size: 25px;
+}
+
 a {
 	color: #b6b099;
 	-webkit-text-stroke-width: 1px;
@@ -326,6 +330,16 @@ button:hover {
 	animation: moveUp ease 1.5s;
 	position: relative;
 }
+.moveLeft {
+	animation: moveLeft ease 0.8s;
+	animation-delay: 0.5s;
+	position: relative;
+}
+.moveRight {
+	animation: moveLeft ease 0.8s;
+	animation-delay: 0.5s;
+	position: relative;
+}
 
 /*------------Responsive----------------*/
 
@@ -407,6 +421,47 @@ button:hover {
 	}
 	100% {
 		top: 0;
+		opacity: 1;
+	}
+}
+@keyframes moveLeft {
+	0% {
+		right: 150px;
+		opacity: 0;
+	}
+	100% {
+		right: 0;
+		opacity: 1;
+	}
+}
+@-webkit-keyframes moveLeft{
+	0% {
+		right: 150px;
+		opacity: 0;
+	}
+	100% {
+		right: 0;
+		opacity: 1;
+	}
+}
+
+@keyframes moveRight {
+	0% {
+		left: 150px;
+		opacity: 0;
+	}
+	100% {
+		left: 0;
+		opacity: 1;
+	}
+}
+@-webkit-keyframes moveRight {
+	0% {
+		left: 150px;
+		opacity: 0;
+	}
+	100% {
+		left: 0;
 		opacity: 1;
 	}
 }
