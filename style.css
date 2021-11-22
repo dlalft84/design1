@@ -327,17 +327,15 @@ button:hover {
 }
 
 .moveUp {
-	animation: moveUp ease 1.5s;
+	animation: moveUp ease 0.8s;
 	position: relative;
 }
 .moveLeft {
-	animation: moveLeft ease 0.8s;
-	animation-delay: 0.5s;
+	animation: moveLeft ease 2.2s;
 	position: relative;
 }
 .moveRight {
-	animation: moveRight ease 0.8s;
-	animation-delay: 0.5s;
+	animation: moveRight ease 2.2s;
 	position: relative;
 }
 
