@@ -463,3 +463,67 @@ button:hover {
 		opacity: 1;
 	}
 }
+
+@media only screen and (min-width: 768px) {
+@keyframes moveUp {
+	0% {
+		top: 50px;
+		opacity: 0;
+	}
+	100% {
+		top: 0;
+		opacity: 1;
+	}
+}
+@-webkit-keyframes moveUp {
+	0% {
+		top: 50px;
+		opacity: 0;
+	}
+	100% {
+		top: 0;
+		opacity: 1;
+	}
+}
+@keyframes moveLeft {
+	0% {
+		right: 25px;
+		opacity: 0;
+	}
+	100% {
+		right: 0;
+		opacity: 1;
+	}
+}
+@-webkit-keyframes moveLeft{
+	0% {
+		right: 25px;
+		opacity: 0;
+	}
+	100% {
+		right: 0;
+		opacity: 1;
+	}
+}
+
+@keyframes moveRight {
+	0% {
+		left: 25px;
+		opacity: 0;
+	}
+	100% {
+		left: 0;
+		opacity: 1;
+	}
+}
+@-webkit-keyframes moveRight {
+	0% {
+		left: 25px;
+		opacity: 0;
+	}
+	100% {
+		left: 0;
+		opacity: 1;
+	}
+}	
+}
