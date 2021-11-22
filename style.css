@@ -404,7 +404,7 @@ button:hover {
 
 @keyframes moveUp {
 	0% {
-		top: 150px;
+		top: 30px;
 		opacity: 0;
 	}
 	100% {
@@ -414,7 +414,7 @@ button:hover {
 }
 @-webkit-keyframes moveUp {
 	0% {
-		top: 150px;
+		top: 30px;
 		opacity: 0;
 	}
 	100% {
@@ -424,7 +424,7 @@ button:hover {
 }
 @keyframes moveLeft {
 	0% {
-		right: 30px;
+		right: 20px;
 		opacity: 0;
 	}
 	100% {
@@ -434,7 +434,7 @@ button:hover {
 }
 @-webkit-keyframes moveLeft{
 	0% {
-		right: 30px;
+		right: 20px;
 		opacity: 0;
 	}
 	100% {
@@ -445,7 +445,7 @@ button:hover {
 
 @keyframes moveRight {
 	0% {
-		left: 30px;
+		left: 20px;
 		opacity: 0;
 	}
 	100% {
@@ -455,7 +455,7 @@ button:hover {
 }
 @-webkit-keyframes moveRight {
 	0% {
-		left: 30px;
+		left: 20px;
 		opacity: 0;
 	}
 	100% {
