@@ -15,7 +15,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: 'Orbitron', sans-serif;
-  font-size: 15px;
+  font-size: 10px;
 }
 
 
@@ -34,20 +34,20 @@ header {
 
 footer {
 	font-family: 'Orbitron', sans-serif;
-  	font-size: 15px;
+  	font-size: 30px;
 }
 
 h1 {
-	font-size: 40px;
+	font-size: 30px;
 }
 
 h2 {
-	font-size: 40px;
+	font-size: 30px;
 	color: #b6b099;
 }
 
 p {
-	font-size: 25px;
+	font-size: 15px;
 }
 
 a {
@@ -400,6 +400,12 @@ button :active {
   h1 {
   	font-size: 50px;
   }
+  h2 {
+  	font-size: 50px;
+  }
+  p {
+	  font-size: 25px;
+	}
 }
 
 @media only screen and (min-width: 1200px) {
