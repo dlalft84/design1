@@ -315,7 +315,7 @@ button:hover {
 }
 
 .moveUp {
-	animation: moveUp ease 0.8s;
+	animation: moveUp ease 1.5s;
 	position: relative;
 }
 
