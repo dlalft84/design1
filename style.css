@@ -318,9 +318,9 @@ button :hover {
 	transition: ease 0.8s;
 }
 button :active {
-	border: solid #b6b099 1px;
-	color: #b6b099;
-	background-color: #232323;
+	border: solid #232323 1px;
+	color: #232323;
+	background-color: #b6b099;
 	transition: ease 0.8s;
 }
 
