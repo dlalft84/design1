@@ -8,6 +8,7 @@
 }
 
 body {
+	cursor: crosshair;
 	background-color: #232323;
 	text-align: center;
   overflow-y: hidden;
