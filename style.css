@@ -1,0 +1,404 @@
+/*--------------Fonts-----------------*/
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@600&display=swap');
+/*------------------------------------*/
+
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+  overflow-y: hidden;
+  margin: 0;
+  padding: 0;
+  font-family: 'Orbitron', sans-serif;
+  font-size: 15px;
+}
+
+
+nav {
+	position: fixed;
+	z-index: 10;
+  	margin: 0;
+  	padding: 0;
+  	width: 100%;
+}
+
+header {
+	font-family: 'Orbitron', sans-serif;
+  	font-size: 15px;
+}
+
+footer {
+	font-family: 'Orbitron', sans-serif;
+  	font-size: 15px;
+}
+
+h1 {
+	font-size: 40px;
+}
+
+a {
+	color: #b6b099;
+	-webkit-text-stroke-width: 1px;
+	-webkit-text-stroke-color: #232323;
+	transition: ease 0.5s;
+}
+a :hover {
+	color: #232323;
+	background-color: #b6b099;
+	transition: ease 0.5s;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+  	padding: 0;
+}
+
+.nav {
+	padding: 25px 15px;
+	display: block;
+	float: left;
+	transition: ease 0.8s;
+}
+
+
+
+.nav-logo {
+	float: right;
+	display: block;
+	padding: 5px;
+}
+.mini-logo {
+	float: right;
+	display: block;
+	margin-top: -15px;
+}
+
+li {
+	text-align: center;
+	text-decoration: none;
+}
+
+#menuToggle
+{
+  display: block;
+  position: relative;
+  padding: 35px;
+  
+  z-index: 2;
+  
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+#menuToggle a {
+  text-decoration: none;
+}
+
+
+
+
+#menuToggle input
+{
+  display: block;
+  width: 40px;
+  height: 32px;
+  position: absolute;
+  top: 30px;
+  left: 30px;
+  
+  cursor: pointer;
+  
+  opacity: 0; /* hide this */
+  z-index: 3; /* and place it over the hamburger */
+  
+  -webkit-touch-callout: none;
+}
+
+/*
+ *hamburger
+ */
+#menuToggle span
+{
+  display: block;
+  width: 33px;
+  height: 5px;
+  margin-bottom: 5px;
+  position: relative;
+  
+  background: #b6b099;
+  border-radius: 3px;
+  border: solid #232323 1px;
+  
+  z-index: 2;
+  
+  transform-origin: 4px 0px;
+  
+  transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+              background 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+              opacity 0.55s ease;
+}
+
+#menuToggle span:first-child
+{
+  transform-origin: 0% 0%;
+}
+
+#menuToggle span:nth-last-child(2)
+{
+  transform-origin: 0% 100%;
+}
+
+/* 
+ * Transform all the slices of hamburger
+ * into a crossmark.
+ */
+#menuToggle input:checked ~ span
+{
+  opacity: 1;
+  transform: rotate(45deg) translate(-2px, -1px);
+  background: #b6b099;
+  border: none;
+  height: 4px;
+}
+
+/*
+ * hide the middle one.
+ */
+#menuToggle input:checked ~ span:nth-last-child(3)
+{
+  opacity: 0;
+  transform: rotate(0deg) scale(0.2, 0.2);
+}
+
+/*
+ * the last one should go the other direction
+ */
+#menuToggle input:checked ~ span:nth-last-child(2)
+{
+  transform: rotate(-45deg) translate(0, -1px);
+}
+
+/*
+ * Make this absolute positioned
+ * at the top left of the screen
+ */
+#menu
+{
+  position: absolute;
+  width: 300px;
+  margin: -100px 0 0 -50px;
+  padding: 50px;
+  padding-top: 100px;
+  
+  background: #232323;
+  list-style-type: none;
+  -webkit-font-smoothing: antialiased;
+  /* to stop flickering of text in safari */
+  
+  transform-origin: 0% 0%;
+  transform: translate(-100%, 0);
+  
+  transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
+}
+
+#menu li
+{
+  padding: 10px 0;
+  font-size: 22px;
+}
+
+/*
+ * And let's slide it in from the left
+ */
+#menuToggle input:checked ~ ul
+{
+  transform: none;
+}
+
+#menuBig {
+  list-style-type: none;
+}
+
+#menuBig li {
+  float: left;
+}
+#menuBig a {
+}
+
+
+
+.slides {
+  /* We set the scroll snapping */
+  scroll-snap-type: x mandatory;
+  /* Necessary for mobile scrolling */
+  -webkit-overflow-scrolling: touch;
+  /* For layout purposes */
+  display: flex;
+  /* To allow horizontal scrolling */
+  overflow-x: scroll;
+}
+
+header, section, footer {
+  /* For styling purposes */
+  height: 100vh;
+  min-width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* Set where the snapping should happen */
+  scroll-snap-align: start;
+}
+
+
+.section-1 {
+  background-image: url();
+  background-color: #232323;
+}
+
+.section-2 {
+  background-image: url();
+  background-color: #202e47;
+}
+
+.section-3 {
+  background-image: url();
+  background-color: #b6b099;
+}
+
+.section-4 {
+  background-image: url();
+  background-color: #c87951;
+}
+
+.section-5 {
+  background-image: url();
+  background-color: #cecac4;
+}
+
+
+button {
+	margin: 10px;
+	width: 40px;
+	height: 40px;
+	border-radius: 10px;
+	border: solid #232323 1px;
+	font-family: 'Orbitron', sans-serif;
+	color: #232323;
+	font-size: 25px;
+	font-weight: 100;
+	background-color: #b6b099;
+	transition: ease 0.8s;
+}
+button:hover {
+	border: solid #b6b099 1px;
+	color: #b6b099;
+	background-color: #232323;
+	transition: ease 0.8s;
+}
+
+ .button {
+ 	position: fixed;
+ 	display: flex;
+ 	justify-content: space-around;
+ 	width: 100%;
+ 	bottom: 50px;
+ 	z-index: 10;
+ }
+
+.box {
+
+}
+
+.moveUp {
+	animation: moveUp ease 0.8s;
+	position: relative;
+}
+
+/*------------Responsive----------------*/
+
+[class*="col-"] {
+  width: 100%;
+  }
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+@media only screen and (max-width: 768px) {
+	#menuBig {
+		display: none;
+	}
+}
+
+
+@media only screen and (min-width: 768px) {
+  [class*="col-"] {
+    float: left;
+  }
+}
+@media only screen and (min-width: 768px) {
+  body {
+  	font-size: 20px;
+  }
+  .nav-logo {
+  	padding: 10px 25px;
+  }
+  #menuToggle {
+  	display: none;
+  }
+  h1 {
+  	font-size: 50px;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  body, header, section, footer {
+  	font-size: 35px;
+  }
+  .nav-logo {
+  	padding: 10px 25px;
+  }
+}
+
+/*-------------------Animations------------------------------*/
+
+@keyframes moveUp {
+	0% {
+		top: 150px;
+		opacity: 0;
+	}
+	100% {
+		top: 0;
+		opacity: 1;
+	}
+}
+@-webkit-keyframes moveUp {
+	0% {
+		top: 150px;
+		opacity: 0;
+	}
+	100% {
+		top: 0;
+		opacity: 1;
+	}
+}

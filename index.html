@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>No Scroll</title>
+	<link rel="stylesheet" href="style.css" />
+	<link rel="icon" href="img/favicon/favicon.ico">
+</head>
+<body>
+	<nav role="navigation" id="navbar">
+		
+		<div id="menuBig">
+			<ul>
+				<a href="#home"><li class="nav">Home</li></a>
+				<a href="#services"><li class="nav">Services</li></a>
+				<a href="#projects"><li class="nav">Projects</li></a>
+				<a href="#about"><li class="nav">About</li></a>
+				<a href="#contact"><li class="nav">Contact</li></a>
+			</ul>
+			<a href="#" class="nav-logo"><img src="img/logo.png" width="100" height="100"></a>
+		</div>
+		<div id="menuToggle">
+			<a href="#" class="mini-logo"><img src="img/logo.png" width="50" height="50"></a>
+					<!--A fake / hidden checkbox is used as click reciever,so you can use the :checked selector on it.-->
+			<input type="checkbox" />
+					<!--Some spans to act as a hamburger.They are acting like a real hamburger,not that McDonalds stuff.-->
+			<span></span>
+			<span></span>
+			<span></span>
+					<!--Too bad the menu has to be inside of the buttonbut hey, it's pure CSS magic.-->
+			<ul id="menu">
+				<a href="#home"><li>Home</li></a>
+				<a href="#services"><li>Services</li></a>
+				<a href="#projects"><li>Projects</li></a>
+				<a href="#about"><li>About</li></a>
+				<a href="#contact"><li>Contact</li></a>
+			</ul>
+		</div>
+	</nav>
+
+	<main class="slides">
+  		<header id="home" class="section-1">
+    		<div id="animateText">
+    			<div class="moveUp">
+    				<h1>Dani Dev & Design</h1>
+    			</div>
+    		</div>
+  		</header>
+
+ 		<section id="services" class="section-2">
+    		<div id="animateText2">
+    			<div class="moveUp">
+    				<h1>Fun & Creative</h1>
+    			</div>
+    		</div>
+ 		</section>
+
+ 		<section id="projects" class="section-3">
+    		<div id="animateText">
+    			<div class="moveUp">
+    				<h1>Awesome Design</h1>
+    			</div>
+    		</div>
+ 		</section>
+
+  		<section id="about" class="section-4">
+    		<div id="animateText">
+    			<div class="moveUp">
+    				<h1>100% Responsive </h1>
+    			</div>
+    		</div>
+  		</section>
+
+ 		<footer id="contact" class="section-5">
+    		<div id="animateText">
+    			<div class="moveUp">
+    				<h1>You like it?</h1>
+    			</div>
+    		</div>
+  		</footer>
+  			<div class="button">
+  				<a href="#home"><button type="button">1</button></a>
+  				<a href="#services"><button type="button">2</button></a>
+  				<a href="#projects"><button type="button">3</button></a>
+  				<a href="#about"><button type="button">4</button></a>
+  				<a href="#contact"><button type="button">5</button></a>
+  			</div>
+	</main>
+	<script src="script.js"></script>
+</body>
+</html>
