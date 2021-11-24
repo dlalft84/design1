@@ -356,6 +356,10 @@ button.active {
 	position: relative;
 }
 
+.hide {
+	opacity: 0;
+}
+
 /*------------Responsive----------------*/
 
 [class*="col-"] {
