@@ -338,7 +338,7 @@ button.active {
 }
 
 .moveUp {
-	animation: moveUp ease 0.8s;
+	animation: moveUp ease 2.8s;
 	animation-iteration-count: 1; 
 	animation-fill-mode: forwards;
 	position: relative;
@@ -432,7 +432,7 @@ button.active {
 
 @keyframes moveUp {
 	0% {
-		top: 30px;
+		top: 15px;
 		opacity: 0;
 	}
   	60% {
@@ -444,13 +444,13 @@ button.active {
     opacity: 1;
 	}
 	100% {
-		top: -30px;
+		top: -15px;
 		opacity: 0;
 	}
 }
 @-webkit-keyframes moveUp {
 	0% {
-		top: 30px;
+		top: 15px;
 		opacity: 0;
 	}
 	60% {
@@ -462,7 +462,7 @@ button.active {
     		opacity: 1;
   	}
   	100% {
-    		top: -30px;
+    		top: -15px;
     		opacity: 0;
   	}
 }
