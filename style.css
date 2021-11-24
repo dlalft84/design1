@@ -61,7 +61,7 @@ a :hover {
 	background-color: #b6b099;
 	transition: ease 0.5s;
 }
-a :active {
+a.active {
 	color: #232323;
 	background-color: #b6b099;
 	transition: ease 0.5s;
