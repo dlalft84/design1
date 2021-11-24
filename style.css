@@ -338,15 +338,21 @@ button.active {
 }
 
 .moveUp {
-	animation: moveUp ease 1.2s;
+	animation: moveUp ease 0.8s;
+	animation-iteration-count: 1; 
+	animation-fill-mode: forwards;
 	position: relative;
 }
 .moveLeft {
-	animation: moveLeft ease 2.2s;
+	animation: moveLeft ease 2.0s;
+	animation-iteration-count: 1; 
+	animation-fill-mode: forwards;
 	position: relative;
 }
 .moveRight {
-	animation: moveRight ease 2.2s;
+	animation: moveRight ease 2.0s;
+	animation-iteration-count: 1; 
+	animation-fill-mode: forwards;
 	position: relative;
 }
 
