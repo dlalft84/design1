@@ -453,7 +453,15 @@ a.logo-social :hover {
 .hide {
 	opacity: 0;
 }
+.hideScroll::-webkit-scrollbar {
+  display: none;
+}
 
+/* Hide scrollbar for IE, Edge and Firefox */
+.hideScroll {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
 /*------------Responsive----------------*/
 
 [class*="col-"] {
