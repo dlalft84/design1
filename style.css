@@ -350,7 +350,7 @@ header, section, footer {
 }
 .scroll-animation {
   position: absolute;
-  top: 5px;
+  top: 35px;
   left: 5px;
   width: 8px;
   height: 8px;
@@ -715,14 +715,14 @@ a.logo-social :hover {
 
 @keyframes scrollDown {
   0% {
-    top: 5px;
+    top: 35px;
     opacity: 1;
   }
   50% {
     opacity: 0.5;
   }
   100% {
-    top: 30px;
+    top: 5px;
     opacity: 0.1;
   }
 }
