@@ -52,10 +52,11 @@ p {
 }
 
 .tiny {
+  font-family: 'Roboto', sans-serif;
   font-size: 13px;
   color: #ffffff;
   padding: 20px;
-  font-family: 'Roboto', sans-serif;
+  
 }
 .scroll-around {
   font-size: 13px;
@@ -326,15 +327,14 @@ header, section, footer {
 
 .container2 {
   position: relative;
-	width: 50vh;
+	width: 40vh;
 	top: 40px;
-	margin: auto;
 }
 
 .about {
   position: relative;
   background-color: #232323;
-  width: 40vh;
+  width: 50vh;
   height: 40vh;
   align-items: center;
   justify-content: center;
@@ -347,9 +347,6 @@ header, section, footer {
 }
 .about h1 {
   padding: 20px
-}
-.about-box {
-	margin: auto;
 }
 
 .bg-scroll {
