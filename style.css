@@ -764,14 +764,9 @@ a.logo-social :hover {
 @keyframes scrollDown {
   0% {
     top: 35px;
-    opacity: 0;
-  } 
-  1% {
-    top: 35px;
     opacity: 1;
-	}
+  } 
   50% {
-    top: 15px;
     opacity: 0.5;
   }
   100% {
@@ -782,14 +777,9 @@ a.logo-social :hover {
 @-webkit-keyframes scrollDown {
    0% {
     top: 35px;
-    opacity: 0;
-  } 
-  1% {
-    top: 35px;
     opacity: 1;
-	}
+  }
   50% {
-    top: 15px;
     opacity: 0.5;
   }
   100% {
