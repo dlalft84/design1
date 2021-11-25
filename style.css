@@ -326,6 +326,7 @@ header, section, footer {
   position: relative;
 	width: 50%;
 	top: 40px;
+	margin: auto;
 }
 
 .about {
