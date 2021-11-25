@@ -330,14 +330,14 @@ header, section, footer {
 
 .container2 {
   position: relative;
-	width: 40vh;
-	top: 80px;
+	width: 50vh;
+	top: 20px;
 }
 
 .about {
-  position: relative;
+  position: absolute;
   background-color: #232323;
-  width: 40vh;
+  width: 50vh;
   height: 40vh;
   align-items: center;
   justify-content: center;
@@ -346,7 +346,7 @@ header, section, footer {
   -webkit-overflow-y: scroll;
   padding: 0 15px;
   border-radius: 20px;
-	margin-top: -150px;
+	margin-top: -20px;
   box-shadow: 0 0 30px #232323;
 }
 .about h1 {
