@@ -306,6 +306,10 @@ header, section, footer {
   background-color: #cecac4;
 }
 
+.container {
+  position: relative;
+  top: 30px;
+}
 
 button {
 	margin: 10px;
@@ -343,6 +347,7 @@ button :hover {
 
 .logo-box {
   position: relative;
+  top: -100px;
   float: left;
   display: block;
   margin: 0;
@@ -382,9 +387,10 @@ a.logo-social :hover {
 	position: relative;
 }
 .zoomIn {
-  animation: zoomIn ease-out 2s;
+  animation: zoomIn ease-out 2.0s;
   animation-iteration-count: 1; 
   animation-fill-mode: forwards;
+  animation-delay: 2.5s;
 }
 
 .hide {
