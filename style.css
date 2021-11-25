@@ -50,7 +50,11 @@ p {
 	font-size: 15px;
 }
 span {
-	color: #ffffff;
+  font-size: 20px;
+  color: #ffffff;
+}
+.tiny {
+  font-size: 10px;
 }
 
 a {
