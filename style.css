@@ -330,14 +330,14 @@ header, section, footer {
 
 .container2 {
   position: relative;
-	width: 50vh;
+	width: 40vh;
 	top: 40px;
 }
 
 .about {
   position: relative;
   background-color: #232323;
-  width: 40vh;
+  width: 50vh;
   height: 40vh;
   align-items: center;
   justify-content: center;
