@@ -330,6 +330,7 @@ header, section, footer {
   justify-content: center;
   overflow-x: hidden;
   padding: 15px;
+  border-radius: 20px;
 }
 
 .bg-scroll {
