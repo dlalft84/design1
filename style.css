@@ -330,21 +330,21 @@ header, section, footer {
 
 .container2 {
   position: relative;
-	width: 40vh;
+	width: 50vh;
 	top: 40px;
 }
 
 .about {
   position: relative;
   background-color: #232323;
-  width: 50vh;
+  width: 40vh;
   height: 40vh;
   align-items: center;
   justify-content: center;
   overflow-x: hidden;
   overflow-y: scroll;
   -webkit-overflow-y: scroll;
-  padding: 15px;
+  padding: 0 15px;
   border-radius: 20px;
 	margin-top: -200px;
 }
