@@ -518,6 +518,9 @@ a.logo-social :hover {
   p {
 	  font-size: 25px;
 	}
+  .about {
+    width: 100vh;
+  }
 }
 
 @media only screen and (min-width: 1200px) {
