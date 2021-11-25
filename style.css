@@ -443,7 +443,7 @@ a.logo-social :hover {
   animation: slideUp ease 2.0s;
   animation-iteration-count: 1; 
   animation-fill-mode: forwards;
-  animation-delay: 2.5s;
+  animation-delay: 2.8s;
 }
 .scrollDown {
   animation: scrollDown ease 1.2s;
