@@ -49,6 +49,9 @@ h2 {
 p {
 	font-size: 15px;
 }
+span {
+	color: #ffffff;
+}
 
 a {
 	-webkit-text-stroke-width: 1px;
