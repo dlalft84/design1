@@ -345,6 +345,9 @@ header, section, footer {
 .about h1 {
   padding: 20px
 }
+.about-box {
+	margin: auto;
+}
 
 .bg-scroll {
   background-size: cover;
