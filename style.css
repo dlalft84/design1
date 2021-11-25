@@ -53,9 +53,14 @@ p {
 .tiny {
   font-size: 10px;
   color: #ffffff;
-  padding: 0 20px;
+  padding: 20px;
 }
-
+.scroll-around {
+  font-size: 10px;
+  color: #ffffff;
+  padding: 0;
+  margin: -5px 0;
+}
 a {
 	-webkit-text-stroke-width: 1px;
 }
