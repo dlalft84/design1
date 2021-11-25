@@ -27,6 +27,15 @@ const observer3 = new IntersectionObserver((entries)=> {
 	threshold: 1
 }); // Action à faire une fois l'élément observé
 
+// Animation zoomIn
+const observer4 = new IntersectionObserver((entries)=> {
+	for (const entry of entries) {
+		entry.target.classList.toggle("zoomIn", entry.isIntersecting)
+	}
+}, {
+	threshold: 1
+}); // Action à faire une fois l'élément observé
+
 let box = document.querySelector('#box'); // Element à observer
 observer.observe(box);
 
@@ -56,3 +65,6 @@ observer3.observe(box9);
 
 let box10 = document.querySelector('#box10'); // moveRight
 observer2.observe(box10);
+
+let box11 = document.querySelector('#box11'); // zoomIn
+observer4.observe(box11);
