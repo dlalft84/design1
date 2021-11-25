@@ -48,7 +48,6 @@ h2 {
 
 p {
 	font-size: 15px;
-	color: #ffffff;
 }
 
 a {
@@ -314,6 +313,7 @@ header, section, footer {
 
 .container2 {
   position: relative;
+	width: 50vh;
 	top: 40px;
 }
 
