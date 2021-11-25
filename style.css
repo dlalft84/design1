@@ -227,6 +227,18 @@ li {
   font-size: 22px;
 }
 
+#menu a li {
+  color: #b6b099;
+  background-color: #232323;
+  transition: ease 0.5s;
+
+}
+#menu a li:hover {
+  color: #232323;
+  background-color: #b6b099;
+  transition: ease 0.5s;
+}
+
 /*
  * And let's slide it in from the left
  */
@@ -241,8 +253,6 @@ li {
 
 #menuBig li {
   float: left;
-}
-#menuBig a {
 }
 
 
