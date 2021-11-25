@@ -344,7 +344,7 @@ header, section, footer {
   overflow-x: hidden;
   overflow-y: scroll;
   -webkit-overflow-y: scroll;
-  padding: 0 15px;
+  padding: 15px;
   border-radius: 20px;
 	margin-top: -20px;
   box-shadow: 0 0 30px #232323;
