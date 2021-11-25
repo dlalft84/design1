@@ -50,9 +50,12 @@ h2 {
 p {
 	font-size: 13px;
 }
+.span {
+	font-family: 'Roboto', sans-serif;
+	
+}
 
 .tiny {
-  font-family: 'Roboto', sans-serif;
   font-size: 13px;
   color: #ffffff;
   padding: 20px;
