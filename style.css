@@ -704,7 +704,7 @@ a.logo-social :hover {
 }
 @keyframes slideUp {
   0% {
-    top: 500px;
+    top: 15px;
     opacity: 0;
   }
   100% {
