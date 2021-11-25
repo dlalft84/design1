@@ -331,7 +331,7 @@ header, section, footer {
 .container2 {
   position: relative;
 	width: 40vh;
-	top: 50px;
+	top: 80px;
 }
 
 .about {
@@ -346,7 +346,7 @@ header, section, footer {
   -webkit-overflow-y: scroll;
   padding: 0 15px;
   border-radius: 20px;
-	margin-top: -100px;
+	margin-top: -150px;
 }
 .about h1 {
   padding: 20px
@@ -548,6 +548,9 @@ a.logo-social :hover {
   p {
 	  font-size: 25px;
 	}
+  .container {
+    width: 100vh;
+	}
   .about {
     width: 100vh;
   }	
@@ -747,14 +750,47 @@ a.logo-social :hover {
     opacity: 1;
   }
 }
+@-webkit-keyframes slideUp {
+  0% {
+    top: 15px;
+    opacity: 0;
+  }
+  100% {
+    top: 0;
+    opacity: 1;
+  }
+}
 
 @keyframes scrollDown {
   0% {
     top: 35px;
+    opacity: 0;
+  } 
+  1% {
+    top: 35px;
     opacity: 1;
-  }
+	}
   50% {
-    opacity: 0.6;
+    top: 15px;
+    opacity: 0.5;
+  }
+  100% {
+    top: 5px;
+    opacity: 0;
+  }
+}
+@-webkit-keyframes scrollDown {
+   0% {
+    top: 35px;
+    opacity: 0;
+  } 
+  1% {
+    top: 35px;
+    opacity: 1;
+	}
+  50% {
+    top: 15px;
+    opacity: 0.5;
   }
   100% {
     top: 5px;
