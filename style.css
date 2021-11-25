@@ -347,6 +347,7 @@ header, section, footer {
   padding: 0 15px;
   border-radius: 20px;
 	margin-top: -150px;
+  box-shadow: 0 0 30px #232323;
 }
 .about h1 {
   padding: 20px
