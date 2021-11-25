@@ -51,17 +51,17 @@ p {
 }
 
 a {
-	color: #b6b099;
 	-webkit-text-stroke-width: 1px;
+}
+a :hover {
+}
+
+.navlink {
+	color: #b6b099;
 	-webkit-text-stroke-color: #232323;
 	transition: ease 0.5s;
 }
-a :hover {
-	color: #232323;
-	background-color: #b6b099;
-	transition: ease 0.5s;
-}
-a.active {
+.navlink :hover {
 	color: #232323;
 	background-color: #b6b099;
 	transition: ease 0.5s;
