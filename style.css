@@ -337,6 +337,15 @@ button.active {
 
 }
 
+.logo-box {
+  position: relative;
+  float: left;
+  display: block;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+}
+
 .moveUp {
 	animation: moveUp ease 2.8s;
 	animation-iteration-count: 1; 
@@ -354,6 +363,11 @@ button.active {
 	animation-iteration-count: 1; 
 	animation-fill-mode: forwards;
 	position: relative;
+}
+.zoomIn {
+  animation: zoomIn ease-out 2s;
+  animation-iteration-count: 1; 
+  animation-fill-mode: forwards;
 }
 
 .hide {
@@ -542,5 +556,57 @@ button.active {
   100% {
     left: -15px;
     opacity: 0;
+  }
+}
+@keyframes zoomIn {
+  0% {
+    transform: scale(0);
+    opacity: 0;
+  }
+  30% {
+    transform: scale(0);
+    opacity: 0;
+  }
+  50% {
+    transform: scale(0.9);
+    opacity: 1;
+  }
+  60% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  80% {
+    transform: scale(0.9);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+@-webkit-keyframes zoomIn {
+  0% {
+    transform: scale(0);
+    opacity: 0;
+  }
+  30% {
+    transform: scale(0);
+    opacity: 0;
+  }
+  50% {
+    transform: scale(0.9);
+    opacity: 1;
+  }
+  60% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  80% {
+    transform: scale(0.9);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
   }
 }
