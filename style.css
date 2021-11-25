@@ -53,8 +53,7 @@ p {
 a {
 	-webkit-text-stroke-width: 1px;
 }
-a :hover {
-}
+
 
 .navlink {
 	color: #b6b099;
@@ -327,12 +326,7 @@ button :hover {
 	background-color: #232323;
 	transition: ease 0.8s;
 }
-button.active {
-	border: solid #b6b099 1px;
-	color: #b6b099;
-	background-color: #232323;
-	transition: ease 0.8s;
-}
+
 
  .button {
  	position: fixed;
