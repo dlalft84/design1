@@ -341,9 +341,22 @@ button.active {
   position: relative;
   float: left;
   display: block;
+  margin: 0;
+  padding: 0;
+}
+
+a.logo-social {
   width: 80px;
   height: 80px;
-  border-radius: 50%;
+  margin: 0;
+  padding: 10px;
+}
+
+a.logo-social :hover {
+  background-color: #b6b099;
+  padding: 10px;
+  border-radius: 20%;
+  transition: ease 0.3s;
 }
 
 .moveUp {
