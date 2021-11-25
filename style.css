@@ -48,6 +48,7 @@ h2 {
 
 p {
 	font-size: 15px;
+	color: #ffffff;
 }
 
 a {
@@ -313,7 +314,6 @@ header, section, footer {
 
 .container2 {
   position: relative;
-  width: 50vh;
 	top: 40px;
 }
 
@@ -358,15 +358,12 @@ header, section, footer {
 
 .container3 {
 	position: relative;
-	width: 50vh;
 }
 .container4 {
 	position: relative;
-	width: 50vh;
 }
 .container5 {
 	position: relative;
-	width: 50vh;
 }
 
 button {
