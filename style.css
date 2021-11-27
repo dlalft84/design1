@@ -79,7 +79,7 @@ a {
 }
 .navlink :hover {
 	color: #232323;
-	background-color: #b6b099;
+	-webkit-text-stroke-color: #b6b099;
 	transition: ease 0.5s;
 }
 
